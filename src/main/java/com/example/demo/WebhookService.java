@@ -42,9 +42,9 @@ public class WebhookService {
             String url = "https://bfhldevapigw.healthrx.co.in/hiring/generateWebhook/JAVA";
 
             Map<String, String> body = Map.of(
-                "name", "Your Name",
+                "name", "Sunkara Lakshya babu",
                 "regNo", "22BCE9865",
-                "email", "yourEmail@example.com"
+                "email", "lakshyasunkara2004@gmail.com"
             );
 
             ResponseEntity<Map> response = restTemplate.postForEntity(url, body, Map.class);
